@@ -1,0 +1,70 @@
+* {
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.padre {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.header {
+    background-color: #000;
+}
+
+.menu {
+    background-color: yellow;
+}
+
+.logo {
+    background-color: red;
+}
+
+.nav {
+    background-color: red;
+}
+
+.social {
+    background-color: red;
+}
+
+.texto-principal {
+    background-color: aqua;
+}
+
+h1 {
+    background-color: bisque;
+}
+
+.section {
+    background-color: #000;
+}
+
+.articulos {
+    background-color: purple;
+}
+
+.article {
+    background-color: aqua;
+}
+
+.navegacion {
+    background-color: red;
+}
+
+.aside {
+    background-color: pink;
+}
+
+.publicidad {
+    background-color: aliceblue;
+}
+
+.footer {
+    background-color: #000;
+}
+
+.pie {
+    background-color: red;
+}
