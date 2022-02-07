@@ -93,4 +93,34 @@ h1 {
     width: 300px;
 }
 
+@media all and (max-width : 800px) {
+    /* esto quiere decir que de 0 a 800 pixeles va a tomar estos estilos */
+    .section {
+        flex-direction: column;
+    }
 
+    .menu {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .aside {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width : 600px) {
+
+    .articulos {
+        flex-direction: column;
+    }
+
+}
+
+@media all and (max-width : 400px) {
+
+    .aside {
+        flex-direction: column;
+    }
+}
